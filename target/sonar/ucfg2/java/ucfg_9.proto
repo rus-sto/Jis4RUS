@@ -1,0 +1,33 @@
+
+/by.jrr.Jis4RUS.service.PersonService#ifAdult()ZT
+JD:/MY JAVA/Jis4RUS/src/main/java/by/jrr/Jis4RUS/service/PersonService.java ("1*Ç
+1T
+JD:/MY JAVA/Jis4RUS/src/main/java/by/jrr/Jis4RUS/service/PersonService.java (­
+ª
+T
+JD:/MY JAVA/Jis4RUS/src/main/java/by/jrr/Jis4RUS/service/PersonService.java (
+%0org.slf4j.Logger"__id*4*2&
+$by.jrr.Jis4RUS.service.PersonService"
+loggeræã
+T
+JD:/MY JAVA/Jis4RUS/src/main/java/by/jrr/Jis4RUS/service/PersonService.java (2
+
+%1void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%0org.slf4j.Logger*
+Checking if person is adult2info(Ljava/lang/String;)·
+´
+T
+JD:/MY JAVA/Jis4RUS/src/main/java/by/jrr/Jis4RUS/service/PersonService.java ( 
+%2by.jrr.Jis4RUS.bean.Person"__id*4*2&
+$by.jrr.Jis4RUS.service.PersonService"
+person¸µ
+T
+JD:/MY JAVA/Jis4RUS/src/main/java/by/jrr/Jis4RUS/service/PersonService.java (	
+%3int"$by.jrr.Jis4RUS.bean.Person#getAge()I*"
+ 
+%2by.jrr.Jis4RUS.bean.Person2getAge()"^
+T
+JD:/MY JAVA/Jis4RUS/src/main/java/by/jrr/Jis4RUS/service/PersonService.java (#
+""B(&
+$by.jrr.Jis4RUS.service.PersonService
