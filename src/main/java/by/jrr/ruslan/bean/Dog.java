@@ -1,15 +1,18 @@
-package by.jrr.Jis4RUS.bean;
+package by.jrr.ruslan.bean;
 
 import java.util.Objects;
 
-public class Person {
+
+public class Dog {
 
     private String name;
     private int age;
+    private int weight;
 
-    public Person() {
-        //    no args constructor
+    public Dog() {
+//        No args constructor
     }
+
 
     public String getName() {
         return name;
@@ -27,25 +30,36 @@ public class Person {
         this.age = age;
     }
 
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Person person = (Person) o;
-        return age == person.age &&
-                Objects.equals(name, person.name);
+        by.jrr.ruslan.bean.Dog dog = (by.jrr.ruslan.bean.Dog) o;
+        return age == dog.age &&
+                weight == dog.weight &&
+                name.equals(dog.name);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, age);
+        return Objects.hash(name, age, weight);
     }
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Dog{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
+                ", weight=" + weight +
                 '}';
     }
 }
+
